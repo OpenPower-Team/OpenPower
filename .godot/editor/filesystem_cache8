@@ -1,0 +1,10 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1723982242
+Camera3D.gd::GDScript::-1::1723025169::0::1::::<>Node3D<>::
+Earth.png::CompressedTexture2D::3913353639860492817::1723012178::1723012201::1::::<><>::
+EarthBigMap.png::CompressedTexture2D::4939402654024793172::1723982242::1723982250::1::::<><>::
+FPS.gd::GDScript::-1::1723048768::0::1::::<>Label<>::
+icon.svg::CompressedTexture2D::7599132596333632336::1722787060::1722787068::1::::<><>::
+MapChart Map.png::CompressedTexture2D::4440135169519978728::1723043647::1723043670::1::::<><>::
+node_3d.tscn::PackedScene::8755090230910344333::1723982023::0::1::::<><>::uid://ccmxifrfrp11q::::res://EarthBigMap.png<>res://Pivot.gd<>res://FPS.gd
+Pivot.gd::GDScript::-1::1723273534::0::1::::<>Node3D<>::

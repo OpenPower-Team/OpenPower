@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=3 uid="uid://dw0bb64c6rm8d"]
+
+[ext_resource type="Texture2D" uid="uid://ccmxifrfrp11q" path="res://EarthBigMap.png" id="1_0mbfo"]
+[ext_resource type="Script" path="res://FPS.gd" id="2_t3k1p"]
+
+[sub_resource type="MeshTexture" id="MeshTexture_w8hht"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xxd5o"]
+albedo_texture = ExtResource("1_0mbfo")
+metallic_specular = 0.0
+normal_texture = SubResource("MeshTexture_w8hht")
+
+[sub_resource type="SphereMesh" id="SphereMesh_5nddi"]
+material = SubResource("StandardMaterial3D_xxd5o")
+radius = 50.0
+height = 100.0
+rings = 64
+
+[node name="World" type="Node3D"]
+
+[node name="Earth" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9.14276)
+mesh = SubResource("SphereMesh_5nddi")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.158675, 0, 0.987331, 0, 1, 0, -0.987331, 0, -0.158675, 86.3753, 17.298, -25.2737)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000860214, 16.3156, 16.3756)
+light_energy = 3.0
+
+[node name="DirectionalLight3D2" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.986086, 0, 0.166235, 0, 1, 0, -0.166235, 0, -0.986086, 32.5076, 10.598, -35.3108)
+light_energy = 3.0
+
+[node name="FPS" type="Label" parent="."]
+anchors_preset = -1
+anchor_right = 0.046
+anchor_bottom = 0.056
+offset_right = 53.008
+offset_bottom = 36.712
+script = ExtResource("2_t3k1p")
