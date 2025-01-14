@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" path="res://EarthBigMap.png" id="1_0mbfo"]
 [ext_resource type="Script" path="res://_archive/Pivot.gd" id="2_cky4p"]
-[ext_resource type="Script" path="res://FPS.gd" id="2_t3k1p"]
+[ext_resource type="Script" path="res://lib/FPS.gd" id="2_t3k1p"]
 
 [sub_resource type="MeshTexture" id="MeshTexture_w8hht"]
 
