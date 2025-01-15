@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://c07p0xcm0iks3"]
+
+[ext_resource type="AudioStream" uid="uid://ecc8onccmqk3" path="res://assets/music/World_of_Leaders.mp3" id="1_j75it"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_j75it")
+autoplay = true
+parameters/looping = true

@@ -1,6 +1,6 @@
-res://main.gd
-res://addons/gecs/entity.gd
-res://addons/gecs/system.gd
-res://components/c_EditorCamera.gd
-res://entities/e_EditorCamera.gd
-res://lib/utils.gd
+res://src/editor.tscn
+res://src/main.tscn
+res://src/editor/Campaign Editor.tscn
+res://src/main.gd
+res://src/editor/Campaign Editor.gd
+res://src/shared/collect_colors.gd

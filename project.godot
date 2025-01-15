@@ -11,14 +11,20 @@ config_version=5
 [application]
 
 config/name="OpenPower"
-run/main_scene="res://main.tscn"
+run/main_scene="res://src/main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 ECS="*res://addons/gecs/ecs.gd"
-GameState="*res://lib/autoloads/game_state.gd"
+GameState="*res://src/shared/autoloads/game_state.gd"
+Music="*res://src/music.tscn"
+
+[easy_fullscreen]
+
+enabled=true
+action="fullscreen"
 
 [editor_plugins]
 
