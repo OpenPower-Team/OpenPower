@@ -1,7 +1,6 @@
-Camera2D
-System
 Node
-Entity
+Sprite2D
+Camera2D
 Label
 Button
 VBoxContainer
@@ -10,5 +9,3 @@ CanvasGroup
 VideoStreamPlayer
 AudioStreamPlayer
 Control
-CanvasLayer
-TileMapLayer

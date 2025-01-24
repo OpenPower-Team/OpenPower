@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b3y5ylyogvm34"]
+
+[node name="world" type="Node"]
+
+[node name="client" type="Node" parent="."]
+
+[node name="server" type="Node" parent="."]
+
+[node name="shared" type="Node" parent="."]

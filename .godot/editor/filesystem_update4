@@ -1,6 +1,9 @@
-res://src/editor.tscn
-res://src/main.tscn
-res://src/editor/Campaign Editor.tscn
-res://src/main.gd
-res://src/editor/Campaign Editor.gd
-res://src/shared/collect_colors.gd
+res://game/main.tscn
+res://game/world.tscn
+res://game/editor/WorldEditor.tscn
+res://game/screens/menus/main_menu/main_menu_with_animations.tscn
+res://_archive/mainmenuold.tscn
+res://_archive/Main2.tscn
+res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.tscn
+res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.gd
+res://game/screens/menus/main_menu/main_menu.tscn

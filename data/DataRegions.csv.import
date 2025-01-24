@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ccik1p65js0s6"
+
+[deps]
+
+files=["res://data/DataRegions.NO.translation", "res://data/DataRegions.#207f7c.translation"]
+
+source_file="res://data/DataRegions.csv"
+dest_files=["res://data/DataRegions.NO.translation", "res://data/DataRegions.#207f7c.translation"]
+
+[params]
+
+compress=true
+delimiter=0
