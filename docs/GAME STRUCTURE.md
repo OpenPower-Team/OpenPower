@@ -1,4 +1,4 @@
-# OPENPOWER: Geopolitics simulation game
+# Game Design Document: Open Source Clone of Superpower 2
 
 ## Project Principles
 
@@ -66,6 +66,7 @@ The project encourages a vibrant modding community by:
 │   └── video              # Video cutscenes or tutorials.
 ├── data                   # Game data files, configurations, or save data.
 ├── docs                   # Documentation for developers.
+│   └── .obsidian          # Obsidian Vault for structured notes.
 ├── game                   # Core game logic and structure.
 │   ├── editor             # Custom editor scripts and tools.
 │   ├── lib                # Libraries and autoload scripts.
@@ -81,7 +82,7 @@ The project encourages a vibrant modding community by:
 │   │   │       ├── input  # Input/keybinding settings.
 │   │   │       └── video  # Video/display settings.
 │   │   ├── opening        # Game opening sequence.
-│   │   └── overlaid_menus # In-game overlays (pause etc.).
+│   │   └── overlaid_menus # In-game overlays (pause, inventory, etc.).
 │   └── world              # Game world-related code.
 │       ├── client         # Client-side logic and assets.
 │       │   ├── scenes     # HUD and other client-side scenes.
@@ -92,7 +93,3 @@ The project encourages a vibrant modding community by:
 ├── _archive               # Deprecated or archived files for reference.
 └── _utils                 # Utility scripts or tools for development.
 ```
-
-CREDITS
-
-Thanks Good Solution Interactive for code "Grand Strategy Game" https://github.com/Thomas-Holtvedt
