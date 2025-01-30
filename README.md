@@ -36,13 +36,13 @@ High-quality graphics are not a primary objective. Our visual goals are limited 
 The game is designed to be:
 - **Optimized**: Capable of handling additional features and extensions.
 - **Modular and Flexible**: Offering core functionality that serves as a foundation for modders to build upon.
-    
+	
 
 The project encourages a vibrant modding community by:
 - Supporting modular design.
 - Allowing additional layers of functionality to be added via mods.
 - Empowering users to customize the game to their preferences.
-    
+	
 
 ---
 

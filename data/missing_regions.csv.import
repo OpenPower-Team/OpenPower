@@ -1,0 +1,15 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://din5r5qibwukt"
+valid=false
+
+[deps]
+
+source_file="res://data/missing_regions.csv"
+
+[params]
+
+compress=true
+delimiter=0

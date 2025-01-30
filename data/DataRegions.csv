@@ -522,8 +522,6 @@ Québec,CAN,,#e3ace1
 Prince_Edward_Island,CAN,,#e4f2f7
 British_Columbia,CAN,,#ed12d1
 Nova_Scotia,CAN,,#edf2f8
-Appenzell_Ausserrhoden,CHE,,#000000
-Fribourg,CHE,,#000101
 Jura,CHE,,#020303
 Thurgau,CHE,,#023ec7
 Basel-Landschaft,CHE,,#05153e
@@ -535,11 +533,13 @@ Solothurn,CHE,,#2e6379
 Genève,CHE,,#304677
 Neuchâtel,CHE,,#315c11
 Appenzell_Innerrhoden,CHE,,#5375c4
+Appenzell_Ausserrhoden,CHE,,#55a33a
 Ticino,CHE,,#5a43a4
 Obwalden,CHE,,#96b95e
 Zürich,CHE,,#a39d7e
 Schwyz,CHE,,#a6b3af
 Uri,CHE,,#bd6e84
+Fribourg,CHE,,#c64a97
 Graubünden,CHE,,#ccf0c1
 Glarus,CHE,,#ce0781
 Bern,CHE,,#d396f3
@@ -585,6 +585,7 @@ Hainan,CHN,,#955f2a
 Shanghai,CHN,,#ab1a95
 Hunan,CHN,,#b4d07d
 Yunnan,CHN,,#b592c3
+Kashmir,CHN,,#bbba94
 Henan,CHN,,#bcae85
 Shaanxi,CHN,,#ce4705
 Shandong,CHN,,#d3afa2
@@ -658,7 +659,6 @@ Likouala,COG,,#e28f45
 Sangha,COG,,#eeb34d
 Pool,COG,,#f2c0f5
 Cook_Islands,COK,,#36303b
-Vichada,COL,,#000000
 Tolima,COL,,#010003
 Huila,COL,,#041731
 San_Andrés_y_Providencia,COL,,#055e35
@@ -681,6 +681,7 @@ Risaralda,COL,,#b78346
 Antioquia,COL,,#bad392
 Casanare,COL,,#c0c867
 Meta,COL,,#c4a9e8
+Vichada,COL,,#ce398B
 Sucre,COL,,#d1a6cb
 La_Guajira,COL,,#dae5d2
 Caquetá,COL,,#dbf497
@@ -691,10 +692,10 @@ Magdalena,COL,,#e972a7
 Chocó,COL,,#fbe6d0
 Nariño,COL,,#fbfef7
 Cauca,COL,,#fcf2f1
-Andjazîdja,COM,,#030203
+Andjazîdja,COM,,#4a42aa
 Moûhîlî,COM,,#4f3000
 Andjouân,COM,,#85abf0
-Porto_Novo,CPV,,#010100
+Porto_Novo,CPV,,#88a3b6
 Sal,CPV,,#060a0b
 São_Vicente,CPV,,#0bb8be
 Ribeira_Brava,CPV,,#131213
@@ -775,7 +776,7 @@ Schleswig-Holstein,DEU,,#bccdd5
 Brandenburg,DEU,,#c7fef7
 Bayern,DEU,,#da4153
 Bremen,DEU,,#db98e3
-Thüringen,DEU,,#f1f5fa
+Thüringen,DEU,,#18e43e
 Mecklenburg-Vorpommern,DEU,,#fbdce3
 Hessen,DEU,,#fbeaec
 Nordrhein-Westfalen,DEU,,#fcf6eb
@@ -796,7 +797,7 @@ Dajabón,DOM,,#000305
 Santo_Domingo,DOM,,#023b2f
 Bahoruco,DOM,,#050204
 La_Altagracia,DOM,,#05020d
-Samaná,DOM,,#060d09
+Samaná,DOM,,#5dd51f
 San_Cristóbal,DOM,,#0b2a40
 Espaillat,DOM,,#190b06
 San_Pedro_de_Macorís,DOM,,#20a727
@@ -823,8 +824,7 @@ Distrito_Nacional,DOM,,#efeced
 María_Trinidad_Sánchez,DOM,,#efeff2
 Hermanas,DOM,,#f5eae8
 Independencia,DOM,,#f8f7fa
-Santiago,DOM,,#fdfafc
-Tizi_Ouzou,DZA,,#000000
+Santiago,DOM,,#9a6afc
 Guelma,DZA,,#002b16
 Skikda,DZA,,#031d1e
 Tindouf,DZA,,#040706
@@ -858,6 +858,7 @@ Sétif,DZA,,#7b3b18
 Béjaïa,DZA,,#7c75d6
 Constantine,DZA,,#834074
 Adrar,DZA,,#8966a9
+Tizi_Ouzou,DZA,,#8cbe1f
 Ghardaïa,DZA,,#8e8789
 M_Sila,DZA,,#90cceb
 Khenchela,DZA,,#950205
@@ -930,9 +931,9 @@ Ad_Daqahliyah,EGY,,#e99784
 Al_Gharbiyah,EGY,,#f1eae8
 Al_Minya,EGY,,#fa97ca
 Aswan,EGY,,#fbfbfe
-Asyut,EGY,,#fcfbf7
+Asyut,EGY,,#a872f9
 Al_Qalyubiyah,EGY,,#fde896
-Matruh,EGY,,#fdfcfc
+Matruh,EGY,,#45e4a7
 Maekel,ERI,,#238a39
 Debubawi_Keyih_Bahri,ERI,,#295207
 Gash_Barka,ERI,,#34db4c
@@ -940,7 +941,6 @@ Debub,ERI,,#b37ed5
 Anseba,ERI,,#d1fbcc
 Semenawi_Keyih_Bahri,ERI,,#fafafd
 Western_Sahara,ESH,,#f89be3
-Comunidad_de_Madrid,ESP,,#000000
 La_Rioja,ESP,,#010001
 Extremadura,ESP,,#07302b
 Andalucía,ESP,,#0a41b1
@@ -954,6 +954,7 @@ Islas_Baleares,ESP,,#a64b33
 Aragón,ESP,,#a81bcc
 Principado_de_Asturias,ESP,,#becae7
 Galicia,ESP,,#c5ded1
+Comunidad_de_Madrid,ESP,,#d487db
 Región_de_Murcia,ESP,,#eeeeef
 Ceuta,ESP,,#eff8fc
 Castilla-La_Mancha,ESP,,#f5faf9
@@ -1006,10 +1007,10 @@ Ostrobothnia,FIN,,#dddcdc
 South_Karelia,FIN,,#e57976
 Northern_Ostrobothnia,FIN,,#f4e3ec
 Lapland,FIN,,#f8f47d
-Rotuma,FJI,,#000000
 Eastern,FJI,,#235433
 Western,FJI,,#56f845
-Central,FJI,,#fcfbfb
+Rotuma,FJI,,#d4593a
+Central,FJI,,#8cb227
 Northern,FJI,,#fda8c2
 Falkland_Islands,FLK,,#eef8fd
 Grand_Est,FRA,,#000407
@@ -1042,7 +1043,6 @@ Nyanga,GAB,,#a3bb84
 Moyen_Ogooué,GAB,,#d9e8ee
 Ogooué_Lolo,GAB,,#e2f0df
 Estuaire,GAB,,#f5f9f2
-Moray,GBR,,#000000
 Herefordshire,GBR,,#010c20
 Newport,GBR,,#01140a
 Warrington,GBR,,#019ca6
@@ -1066,6 +1066,7 @@ South_Yorkshire,GBR,,#170746
 Medway,GBR,,#173c54
 Na_hʼEileanan_Siar,GBR,,#174352
 Caerphilly,GBR,,#18570a
+Isle_of_Man,GBR,,#192e24
 Luton,GBR,,#1c1c5b
 Southampton,GBR,,#1e687d
 Edinburgh,GBR,,#20c77a
@@ -1075,6 +1076,7 @@ North_Lanarkshire,GBR,,#240130
 Gloucestershire,GBR,,#261c1b
 Newry_City_Mourne_and_Down,GBR,,#268967
 Blackpool,GBR,,#270a3b
+Guernsey,GBR,,#271a41
 North_Yorkshire,GBR,,#293070
 Scottish_Borders,GBR,,#29d225
 Cardiff,GBR,,#2bc2b9
@@ -1107,6 +1109,7 @@ Wrexham,GBR,,#6b926c
 Perth_and_Kinross,GBR,,#6e6b6e
 Stockton-on-Tees,GBR,,#70c9e3
 Poole,GBR,,#710657
+Moray,GBR,,#74109f
 Angus,GBR,,#756aa7
 Tyne_and_Wear,GBR,,#76f9e8
 Anglesey,GBR,,#774e60
@@ -1174,6 +1177,7 @@ South_Ayrshire,GBR,,#efe2e6
 Bridgend,GBR,,#f1f5fa
 Argyll_and_Bute,GBR,,#f1fceb
 Dundee,GBR,,#f1fcf6
+Jersey,GBR,,#f26dd4
 Orkney_Islands,GBR,,#f2f1bb
 Swansea,GBR,,#f3f1f8
 Midlothian,GBR,,#f3f5f0
@@ -1182,7 +1186,7 @@ Milton_Keynes,GBR,,#f7f0e2
 Hertfordshire,GBR,,#f9f0ee
 Fermanagh_and_Omagh,GBR,,#fab3d3
 Derby,GBR,,#faf9fa
-Armagh_City_Banbridge_and_Craigavon,GBR,,#fafbfa
+Armagh_City_Banbridge_and_Craigavon,GBR,,#2f9ef9
 East_Ayrshire,GBR,,#fba8cb
 Northamptonshire,GBR,,#fbbcac
 Staffordshire,GBR,,#fbeaf4
@@ -1202,10 +1206,10 @@ Abkhazia,GEO,,#c7eee6
 Guria,GEO,,#d9caca
 Kvemo_Kartli,GEO,,#eed5e5
 Samtskhe-Javakheti,GEO,,#fbf9f8
-Bono,GHA,,#000101
 Volta,GHA,,#051112
 Savannah,GHA,,#522f6a
 North_East,GHA,,#6b6380
+Bono,GHA,,#74159f
 Bono_East,GHA,,#948198
 Western_North,GHA,,#95cdf0
 Ahafo,GHA,,#acc8d9
@@ -1218,8 +1222,8 @@ Ashanti,GHA,,#d9ece1
 Oti,GHA,,#f0f6f7
 Western,GHA,,#f3f5e6
 Upper_East,GHA,,#f6fbfa
-Labé,GIN,,#000301
 Lélouma,GIN,,#015b80
+Labé,GIN,,#055102
 Kankan,GIN,,#090a09
 Yomou,GIN,,#0a3377
 Lola,GIN,,#131e13
@@ -1295,7 +1299,7 @@ Pituffik,GRL,,#5a93e1
 Qeqqata_Kommunia,GRL,,#77057c
 Kommuneqarfik_Sermersooq,GRL,,#bb33fa
 Kommune_Kujalleq,GRL,,#c677c5
-Qeqertalik,GRL,,#c9e6e4
+Qeqertalik,GRL,,#e1ae2f
 Nationalparken,GRL,,#faf5f3
 Retalhuleu,GTM,,#030a0e
 Sololá,GTM,,#051614
@@ -1341,7 +1345,7 @@ Kwun_Tong,HKG,,#6d5d58
 Yuen_Long,HKG,,#7a6a55
 Sai_Kung,HKG,,#82e75a
 Sha_Tin,HKG,,#9e898d
-Wong_Tai_Sin,HKG,,#b0b0b0
+Wong_Tai_Sin,HKG,,#9bb63A
 Tsuen_Wan,HKG,,#cfd2bf
 Eastern,HKG,,#d2fbf0
 Southern,HKG,,#d7bc92
@@ -1388,7 +1392,7 @@ Medimurska,HRV,,#f0f0e7
 Licko-Senjska,HRV,,#f0f1f5
 Krapinsko-Zagorska,HRV,,#f4ecfd
 Osjecko-Baranjska,HRV,,#f7e8fb
-Varaždinska,HRV,,#fbfefb
+Varaždinska,HRV,,#f88ffc
 Ouest,HTI,,#13a275
 Nippes,HTI,,#570f72
 Centre,HTI,,#5a0283
@@ -1419,8 +1423,6 @@ Somogy,HUN,,#c2c0c5
 Bács-Kiskun,HUN,,#d0ac4d
 Zala,HUN,,#ededf8
 Gyor-Moson-Sopron,HUN,,#f0c3f6
-Daerah_Khusus_Ibukota,IDN,,#000000
-Kepulauan_Bangka_Belitung,IDN,,#000000
 Sulawesi_Selatan,IDN,,#023505
 Maluku_Utara,IDN,,#030601
 Kalimantan_Timur,IDN,,#051003
@@ -1437,6 +1439,7 @@ Bali,IDN,,#4fc494
 Sulawesi_Utara,IDN,,#53e071
 Papua_Pegunungan,IDN,,#54853c
 Sumatra_Utara,IDN,,#552b28
+Kepulauan_Bangka_Belitung,IDN,,#5561d1
 Kalimantan_Utara,IDN,,#66115b
 Jawa_Tengah,IDN,,#673126
 Papua_Selatan,IDN,,#7e1f41
@@ -1444,6 +1447,7 @@ Maluku,IDN,,#909162
 Jawa_Timur,IDN,,#90a39e
 Lampung,IDN,,#918774
 Jawa_Barat,IDN,,#93b49a
+Daerah_Khusus_Ibukota,IDN,,#9Ba32f
 Jambi,IDN,,#b2d1c5
 Gorontalo,IDN,,#c16e9f
 Sumatra_Selatan,IDN,,#c5f8c9
@@ -1587,7 +1591,7 @@ HaZafon,ISR,,#b23aba
 HaDarom,ISR,,#c5c5d8
 Tel_Aviv,ISR,,#e619b3
 Jerusalem,ISR,,#f4fdf4
-Sardegna,ITA,,#030601
+Sardegna,ITA,,#099f9f
 Trentino-Alto_Adige,ITA,,#030605
 Liguria,ITA,,#1e171d
 Friuli-Venezia_Giulia,ITA,,#261b01
@@ -1681,7 +1685,7 @@ Shizuoka,JPN,,#f924b0
 Yamagata,JPN,,#f9746e
 Nagasaki,JPN,,#fcf7f1
 Atyrau,KAZ,,#03504f
-Ulytau,KAZ,,#060009
+Ulytau,KAZ,,#3EA547
 Turkistan,KAZ,,#0e1323
 Mangghystau,KAZ,,#1a1e15
 Almaty,KAZ,,#262f10
@@ -1700,7 +1704,7 @@ Shymkent_City,KAZ,,#e786c4
 Qyzylorda,KAZ,,#ecdf6f
 Qaraghandy,KAZ,,#f9f0f6
 West_Kazakhstan,KAZ,,#fde1de
-Mandera,KEN,,#010000
+Mandera,KEN,,#010455
 Trans_Nzoia,KEN,,#010602
 Narok,KEN,,#101867
 Kiambu,KEN,,#141d15
@@ -1756,7 +1760,7 @@ Ysyk-Köl,KGZ,,#dbf1bc
 Osh,KGZ,,#dfd8f1
 Bishkek,KGZ,,#eff3e6
 Jalal-Abad,KGZ,,#fdfadc
-Krong_Preah_Sihanouk,KHM,,#060505
+Krong_Preah_Sihanouk,KHM,,#f4618f
 Phnom_Penh,KHM,,#0b1e09
 Svay_Rieng,KHM,,#121469
 Kândal,KHM,,#1d023b
@@ -1895,7 +1899,7 @@ Mŏṇarāgala,LKA,,#d8c0c0
 Mannārama,LKA,,#d9ccbc
 Kægalla,LKA,,#db2dea
 Puttalama,LKA,,#f9f3d8
-Kŏḷamba,LKA,,#fdfcfd
+Kŏḷamba,LKA,,#fcc63e
 Butha_Buthe,LSO,,#0b0f0a
 Mokhotlong,LSO,,#1d6422
 Qacha_s_Nek,LSO,,#2fa291
@@ -1924,7 +1928,7 @@ Ogres_novads,LVA,,#010304
 Talsu_novads,LVA,,#01120c
 Ropažu_novads,LVA,,#014986
 Cēsu_novads,LVA,,#01685b
-Balvu_novads,LVA,,#040303
+Balvu_novads,LVA,,#874596
 Rēzekne,LVA,,#07022b
 Saldus_novads,LVA,,#0e12a5
 Dobeles_novads,LVA,,#0ee9f1
@@ -1961,7 +1965,7 @@ Kuldīgas_novads,LVA,,#dacbfc
 Valkas_novads,LVA,,#ddfca7
 Ventspils,LVA,,#e5e0b6
 Preiļu_novads,LVA,,#ebf2f0
-Rēzeknes_novads,LVA,,#faf9fa
+Rēzeknes_novads,LVA,,#9b0142
 Macau,MAC,,#70eb16
 St__Martin,MAF,,#040005
 Béni_Mellal-Khénifra,MAR,,#050000
@@ -2053,7 +2057,7 @@ Alifu_Dhaalu,MDV,,#f0f9c8
 Gaafu_Alifu,MDV,,#f3f5f6
 Noonu,MDV,,#fcfbfb
 Laamu,MDV,,#fdfdea
-Campeche,MEX,,#010201
+Campeche,MEX,,#7484a7
 Querétaro,MEX,,#040609
 Colima,MEX,,#07420f
 Tlaxcala,MEX,,#0d368a
@@ -2189,7 +2193,7 @@ Trarza,MRT,,#1dfaed
 Guidimaka,MRT,,#1f221b
 Assaba,MRT,,#1f5431
 Brakna,MRT,,#212221
-Nouakchott,MRT,,#2c272b
+Nouakchott,MRT,,#2c3ab6
 Tiris_Zemmour,MRT,,#495efc
 Hodh_el_Gharbi,MRT,,#58132f
 Dakhlet_Nouadhibou,MRT,,#702b54
@@ -2318,7 +2322,7 @@ Sokoto,NGA,,#e7e7e7
 Bauchi,NGA,,#e7f4e9
 Gombe,NGA,,#e9b44c
 Enugu,NGA,,#efe2eb
-Osun,NGA,,#f1fceb
+Osun,NGA,,#9b2b2b
 Borno,NGA,,#fafaf9
 Delta,NGA,,#fdfafc
 Chinandega,NIC,,#027cd1
@@ -2426,22 +2430,6 @@ Al_Batnah_North,OMN,,#604558
 Al_Wusta,OMN,,#9cf1c4
 Al_Dhahira,OMN,,#a0a97c
 Al_Batnah_South,OMN,,#fef7ed
-Dubăsari_City,XTR,,#08040b
-Sanaag,XSO,,#0b6011
-Togdheer,XSO,,#13ead8
-Abyei,SDN,,#16d347
-Isle_of_Man,GBR,,#192e24
-Woqooyi_Galbeed,XSO,,#222951
-Guernsey,GBR,,#271a41
-Sool,XSO,,#3f4e17
-Camenca,XTR,,#433483
-Awdal,XSO,,#461b15
-Slobozia,XTR,,#595c07
-Rîbnița,XTR,,#a8cb9e
-Grigoriopol,XTR,,#b7fd64
-Kashmir,CHN,,#bbba94
-Dubăsari,XTR,,#e1edb6
-Jersey,GBR,,#f26dd4
 Azad_Kashmir,PAK,,#093350
 Islamabad_Capital_Territory,PAK,,#115c18
 Gilgit_Baltistan,PAK,,#33a460
@@ -2490,7 +2478,6 @@ Loreto,PER,,#daf0c7
 Moquegua,PER,,#e6cfe6
 Puno,PER,,#f9a0d6
 Cusco,PER,,#fa896b
-Apayao,PHL,,#000101
 Cotabato,PHL,,#025b06
 Sarangani,PHL,,#030100
 Valenzuela,PHL,,#050d24
@@ -2546,6 +2533,7 @@ Davao_Occidental,PHL,,#618e7c
 Muntinlupa,PHL,,#644625
 Iloilo_City,PHL,,#6b9e9d
 Santiago,PHL,,#6ce437
+Apayao,PHL,,#74169f
 Maguindanao_del_Norte,PHL,,#74c7d1
 Pasig,PHL,,#779d66
 Cebu,PHL,,#7ba1b2
@@ -2612,7 +2600,7 @@ Laguna,PHL,,#fba6ce
 Lapu-Lapu,PHL,,#fbfefb
 Angeles,PHL,,#fdcb84
 Masbate,PHL,,#feebef
-Peleliu,PLW,,#010000
+Peleliu,PLW,,#010456
 Sonsorol,PLW,,#232128
 Aimeliik,PLW,,#2c14bd
 Ngeremlengui,PLW,,#2c2d2c
@@ -2680,7 +2668,7 @@ Hwanghae-namdo,PRK,,#c79eac
 Chagang-do,PRK,,#d4d6e1
 Kangwŏn-do,PRK,,#f3e3fe
 Kaesong,PRK,,#f7f8f3
-Guarda,PRT,,#091112
+Guarda,PRT,,#3eae4e
 Viseu,PRT,,#411306
 Lisboa,PRT,,#452400
 Faro,PRT,,#4e563d
@@ -2733,7 +2721,6 @@ Ar_Rayyān,QAT,,#888a8b
 Al_Shahaniya,QAT,,#cbcce2
 Al_Wakrah,QAT,,#d7968c
 Ad_Dawhah,QAT,,#ebc246
-Buzău,ROU,,#000100
 Dâmbovița,ROU,,#020500
 Maramureș,ROU,,#040303
 Vrancea,ROU,,#0d060a
@@ -2755,6 +2742,7 @@ Harghita,ROU,,#839cf8
 Sibiu,ROU,,#843f78
 Galați,ROU,,#8f879a
 Mehedinți,ROU,,#9c62ad
+Buzău,ROU,,#a37874
 Tulcea,ROU,,#a7a2a6
 Botoșani,ROU,,#a87f9c
 Satu_Mare,ROU,,#afd7f0
@@ -2775,8 +2763,6 @@ Neamț,ROU,,#e97afd
 Iași,ROU,,#f4fbf7
 Brăila,ROU,,#f5fee5
 Covasna,ROU,,#f7dada
-Ul_yanovsk,RUS,,#000000
-Vologda,RUS,,#000000
 Saratov,RUS,,#02d539
 Kursk,RUS,,#030a04
 Magadan,RUS,,#07e302
@@ -2801,6 +2787,7 @@ North_Ossetia,RUS,,#2a8957
 Tula,RUS,,#2d6c62
 Sakhalin,RUS,,#336059
 Novgorod,RUS,,#393826
+Ul_yanovsk,RUS,,#3ec9b2
 Lipetsk,RUS,,#40191d
 Mariy-El,RUS,,#442143
 Yaroslavl_,RUS,,#456d2a
@@ -2813,6 +2800,7 @@ Kurgan,RUS,,#55fae1
 Krasnodar,RUS,,#59535e
 Kabardin-Balkar,RUS,,#5a231b
 Tyumen_,RUS,,#6891f9
+Vologda,RUS,,#69a7aa
 City_of_St__Petersburg,RUS,,#6a0535
 Yamal-Nenets,RUS,,#6c30bd
 Voronezh,RUS,,#6ca0b1
@@ -2878,6 +2866,7 @@ Jizan,SAU,,#958f32
 Ar_Riyad,SAU,,#f0b1ad
 Western_Darfur,SDN,,#040500
 White_Nile,SDN,,#150f06
+Abyei,SDN,,#16d347
 Northern,SDN,,#221a03
 Blue_Nile,SDN,,#281d09
 South_Kordufan,SDN,,#2b0239
@@ -2894,13 +2883,13 @@ North_Darfur,SDN,,#e4d7f6
 Khartoum,SDN,,#ecc3d1
 Gezira,SDN,,#f2cde6
 Gedarif,SDN,,#fa730f
-Louga,SEN,,#000100
 Saint-Louis,SEN,,#010201
 Diourbel,SEN,,#070005
 Fatick,SEN,,#072b00
 Dakar,SEN,,#0e0603
 Kédougou,SEN,,#121502
 Ziguinchor,SEN,,#19201d
+Louga,SEN,,#1C9B4A
 Tambacounda,SEN,,#1e0102
 Thiès,SEN,,#24b112
 Kaolack,SEN,,#65859c
@@ -2962,7 +2951,6 @@ Shabeellaha_Dhexe,SOM,,#fbfee1
 Jubbada_Dhexe,SOM,,#fea891
 Saint_Pierre,SPM,,#b169da
 Miquelon_Langlade,SPM,,#b1b7d2
-Macvanski,SRB,,#000000
 Zapadno-Backi,SRB,,#000902
 Zajecarski,SRB,,#05062c
 Jablanicki,SRB,,#070606
@@ -2978,6 +2966,7 @@ Nišavski,SRB,,#508578
 Pomoravski,SRB,,#70766b
 Južno-Banatski,SRB,,#7b887f
 Severno-Backi,SRB,,#8559f6
+Macvanski,SRB,,#8f7cc9
 Rasina,SRB,,#a9868f
 Zlatiborski,SRB,,#b1b9bc
 Moravicki,SRB,,#b4a459
@@ -3001,7 +2990,7 @@ Pibor,SSD,,#a93088
 Unity,SSD,,#fef9ad
 São_Tomé,STP,,#182c55
 Príncipe,STP,,#a4afdb
-Saramacca,SUR,,#010100
+Saramacca,SUR,,#010457
 Commewijne,SUR,,#010106
 Coronie,SUR,,#252980
 Paramaribo,SUR,,#381cb1
@@ -3055,7 +3044,7 @@ Västerbotten,SWE,,#fafafb
 Manzini,SWZ,,#0e0e03
 Hhohho,SWZ,,#28332b
 Lubombo,SWZ,,#310641
-Shiselweni,SWZ,,#fdfcfd
+Shiselweni,SWZ,,#3ad04e
 Sint_Maarten,SXM,,#d8b5d3
 Bel_Ombre,SYC,,#000007
 English_River,SYC,,#070826
@@ -3280,7 +3269,6 @@ Sousse,TUN,,#d60c07
 Gabès,TUN,,#d9dad9
 Tunis,TUN,,#f5f5fe
 Zaghouan,TUN,,#fee9f6
-Trabzon,TUR,,#000000
 Bolu,TUR,,#010202
 Elazig,TUR,,#010900
 Kars,TUR,,#011c28
@@ -3338,6 +3326,7 @@ Sinop,TUR,,#affb5e
 Ardahan,TUR,,#b51ea1
 Rize,TUR,,#bc9797
 Tekirdag,TUR,,#bca5de
+Trabzon,TUR,,#c64a4a
 Gaziantep,TUR,,#c8dceb
 Mus,TUR,,#ca7da9
 Karaman,TUR,,#cb81cc
@@ -3358,7 +3347,7 @@ Malatya,TUR,,#eef0eb
 Ankara,TUR,,#effee1
 Çankiri,TUR,,#f0fdfd
 Kirsehir,TUR,,#f5f6f8
-Denizli,TUR,,#f9f8f9
+Denizli,TUR,,#698818
 Kayseri,TUR,,#f9fee1
 Bingöl,TUR,,#faf3f7
 Tuvalu,TUV,,#0f120f
@@ -3646,7 +3635,7 @@ Samarkand,UZB,,#f0f8d9
 Bukhoro,UZB,,#f1f3f0
 Vatican,VAT,,#afdf9c
 Saint_Vincent_and_the_Grenadines,VCT,,#e6e3fc
-Anzoátegui,VEN,,#000101
+Anzoátegui,VEN,,#055101
 La_Guaira,VEN,,#09158a
 Aragua,VEN,,#0e102d
 Zulia,VEN,,#13290a
@@ -3765,6 +3754,17 @@ Gjakova,XKK,,#88d56a
 Gjilan,XKK,,#c27391
 Ferizaj,XKK,,#e4947b
 Prizren,XKK,,#f7f2fd
+Sanaag,XSO,,#0b6011
+Togdheer,XSO,,#13ead8
+Woqooyi_Galbeed,XSO,,#222951
+Sool,XSO,,#3f4e17
+Awdal,XSO,,#461b15
+Dubăsari_City,XTR,,#08040b
+Camenca,XTR,,#433483
+Slobozia,XTR,,#595c07
+Rîbnița,XTR,,#a8cb9e
+Grigoriopol,XTR,,#b7fd64
+Dubăsari,XTR,,#e1edb6
 Ta_izz,YEM,,#060908
 Ibb,YEM,,#1b8c8b
 Shabwah,YEM,,#2a2958
