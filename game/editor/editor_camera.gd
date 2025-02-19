@@ -2,13 +2,11 @@ extends Camera2D
 
 func zoom_in():
 	var current_zoom = self.zoom
-	if get_node("../CanvasLayer/Panel_validation").visible == false:
-		self.set_zoom(current_zoom * 1.05)
+	self.set_zoom(current_zoom * 1.05)
 	
 func zoom_out():
 	var current_zoom = self.zoom
-	if get_node("../CanvasLayer/Panel_validation").visible == false:
-		self.set_zoom(current_zoom * 0.95)
+	self.set_zoom(current_zoom * 0.95)
 	
 #Drag around camera
 func move_offset(event):

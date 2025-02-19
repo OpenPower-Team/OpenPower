@@ -15,7 +15,9 @@ func init_database():
 		push_error("Failed to open database")
 		return
 	
+	'''
 	# Create tables if not exists
+	
 	db.query("""
 		CREATE TABLE IF NOT EXISTS REGION (
 			ID_COLOR TEXT PRIMARY KEY,
@@ -30,6 +32,7 @@ func init_database():
 			NAME TEXT
 		)
 	""")
+	'''
 
 func load_countries():
 	owner_option.clear()

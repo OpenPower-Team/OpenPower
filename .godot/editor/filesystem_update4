@@ -1,10 +1,3 @@
-res://game/editor/WorldEditor.tscn
-res://game/screens/menus/main_menu/main_menu.tscn
-res://game/main.tscn
-res://game/screens/menus/main_menu/main_menu.gd
-res://game/screens/menus/options_menu/master_options_menu.tscn
-res://game/lib/autoloads/scene_loader.tscn
-res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.gd
-res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.tscn
-res://game/lib/autoloads/app_config.gd
-res://game/editor/WorldEditor.gd
+res://game/world.tscn
+res://game/editor/editor_camera.gd
+res://game/world/client/client_ui.tscn

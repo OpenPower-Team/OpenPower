@@ -19,12 +19,49 @@ script = ExtResource("3_56bls")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
+[node name="Panel_tools" type="Panel" parent="CanvasLayer"]
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_top = 30.0
+offset_right = 80.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Panel_tools"]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="SelectTool" type="Button" parent="CanvasLayer/Panel_tools/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "Select"
+flat = true
+
+[node name="MoveTool" type="Button" parent="CanvasLayer/Panel_tools/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "Move"
+flat = true
+
+[node name="PaintTool" type="Button" parent="CanvasLayer/Panel_tools/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "Paint"
+flat = true
+
+[node name="EraseTool" type="Button" parent="CanvasLayer/Panel_tools/VBoxContainer"]
+layout_mode = 2
+toggle_mode = true
+text = "Erase"
+flat = true
+
 [node name="Panel_region" type="Panel" parent="CanvasLayer"]
 visible = false
-offset_left = 881.0
-offset_top = 33.0
-offset_right = 1153.0
-offset_bottom = 339.0
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -300.0
+offset_top = 30.0
 
 [node name="VB" type="VBoxContainer" parent="CanvasLayer/Panel_region"]
 layout_mode = 0

@@ -49,15 +49,10 @@ The project encourages a vibrant modding community by:
 ## OpenPower Structure
 
 ```
-├── .godot
-│   ├── editor             # Godot-specific editor settings.
-├── .vscode                # Visual Studio Code workspace settings.
 ├── addons                 # Plugins used to enhance the engine.
-│   ├── 3d_rts_camera      # Camera control plugin for RTS games.
 │   ├── godot-sqlite       # SQLite database integration.
 │   ├── json_editor        # JSON data editing tools.
 │   ├── loggie             # Enhanced logging functionality.
-│   ├── maaacks_menus_template # Template for creating menus.
 ├── assets                 # Multimedia assets used in the game.
 │   ├── godot_engine_logo  # Logos for branding or placeholders.
 │   ├── logo               # Game-specific logos.
@@ -66,29 +61,11 @@ The project encourages a vibrant modding community by:
 │   └── video              # Video cutscenes or tutorials.
 ├── data                   # Game data files, configurations, or save data.
 ├── docs                   # Documentation for developers.
-│   └── .obsidian          # Obsidian Vault for structured notes.
 ├── game                   # Core game logic and structure.
 │   ├── editor             # Custom editor scripts and tools.
 │   ├── lib                # Libraries and autoload scripts.
-│   │   └── autoloads      # Global scripts loaded at runtime.
-│   ├── screens            # Individual game screens and menus.
-│   │   ├── credits        # Credits screen.
-│   │   ├── end_credits    # Final credits roll.
-│   │   ├── loading_screen # Loading screen assets and logic.
-│   │   ├── menus          # Menu screens.
-│   │   │   ├── main_menu  # Main menu logic.
-│   │   │   └── options_menu # Options menus for settings.
-│   │   │       ├── audio  # Audio settings.
-│   │   │       ├── input  # Input/keybinding settings.
-│   │   │       └── video  # Video/display settings.
-│   │   ├── opening        # Game opening sequence.
-│   │   └── overlaid_menus # In-game overlays (pause, inventory, etc.).
 │   └── world              # Game world-related code.
-│       ├── client         # Client-side logic and assets.
-│       │   ├── scenes     # HUD and other client-side scenes.
-│       │   └── scripts    # Client-specific scripts.
 │       ├── server         # Server-side game logic.
-│       └── shared         # Shared assets and logic between client and server.
 ├── loc                    # Localization files for multiple languages.
 ├── _archive               # Deprecated or archived files for reference.
 └── _utils                 # Utility scripts or tools for development.

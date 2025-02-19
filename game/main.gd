@@ -15,13 +15,13 @@ func _input(_event):
 
 
 func _on_singleplayer_button_up() -> void:
-	get_tree().change_scene_to_file("res://src/singleplayer.tscn")
+	get_tree().change_scene_to_file("res://game/singleplayer.tscn")
 
 func _on_multiplayer_button_up() -> void:
-	get_tree().change_scene_to_file("res://src/multiplayer.tscn")
+	get_tree().change_scene_to_file("res://game/multiplayer.tscn")
 
 func _on_world_editor_button_up() -> void:
-	get_tree().change_scene_to_file("res://src/editor/WorldEditor.tscn")
+	get_tree().change_scene_to_file("res://game/editor/WorldEditor.tscn")
 
 func _on_options_button_up() -> void:
 	pass # Replace with function body.
