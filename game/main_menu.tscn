@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cbrpaew3hshex"]
 
-[ext_resource type="Script" path="res://game/main.gd" id="1_oqv2r"]
-[ext_resource type="Script" path="res://game/lib/FPS.gd" id="2_2ls0m"]
+[ext_resource type="Script" uid="uid://dpkosusb377vf" path="res://game/main.gd" id="1_oqv2r"]
+[ext_resource type="Script" uid="uid://c2wgyigm3vji0" path="res://game/lib/FPS.gd" id="2_2ls0m"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_mhmxo"]
 shadow_color = Color(0, 0, 0, 0.509804)

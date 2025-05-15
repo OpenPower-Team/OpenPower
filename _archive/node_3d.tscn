@@ -1,13 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://dw0bb64c6rm8d"]
+[gd_scene load_steps=6 format=3 uid="uid://dw0bb64c6rm8d"]
 
-[ext_resource type="Texture2D" path="res://EarthBigMap.png" id="1_0mbfo"]
-[ext_resource type="Script" path="res://_archive/Pivot.gd" id="2_cky4p"]
-[ext_resource type="Script" path="res://game/lib/FPS.gd" id="2_t3k1p"]
+[ext_resource type="Script" uid="uid://d3ckx2absx4o5" path="res://_archive/Pivot.gd" id="2_cky4p"]
+[ext_resource type="Script" uid="uid://c2wgyigm3vji0" path="res://game/lib/FPS.gd" id="2_t3k1p"]
 
 [sub_resource type="MeshTexture" id="MeshTexture_w8hht"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xxd5o"]
-albedo_texture = ExtResource("1_0mbfo")
 metallic_specular = 0.0
 normal_texture = SubResource("MeshTexture_w8hht")
 

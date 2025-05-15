@@ -3,11 +3,13 @@
 importer="csv_translation"
 type="Translation"
 uid="uid://din5r5qibwukt"
-valid=false
 
 [deps]
 
+files=["res://data/missing_regions.REGION_ID.translation"]
+
 source_file="res://data/missing_regions.csv"
+dest_files=["res://data/missing_regions.REGION_ID.translation"]
 
 [params]
 

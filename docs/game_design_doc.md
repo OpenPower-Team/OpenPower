@@ -87,3 +87,48 @@ The project utilizes the following technologies:
 ## 8. Future Development
 
 Further sections will detail other game mechanics, UI elements, and gameplay features as they are explored.
+
+## 9. Core Classes
+
+### 9.1. DBManager
+
+The `DBManager` class (located at `game/lib/db_manager.gd`) handles the connection to the SQLite database and provides methods for fetching data.
+
+*   **`db_path`:** The path to the database file.
+*   **`_init(db_path: String)`:** Constructor, initializes the `db_path`.
+*   **`connect_to_db() -> SQLite`:** Connects to the database and returns an `SQLite` object. Returns `null` on failure.
+*   **`fetch_countries() -> Array`:** Fetches all countries from the `COUNTRY` table and returns an array of results.
+*   **`fetch_regions(country_id: String) -> Array`:** Fetches all regions belonging to a given country ID from the `REGION` table and returns an array of results.
+
+### 9.2. World
+
+The `World` class (located at `game/world/server/world.gd`) manages the game world and loads data from the database.
+
+*   **`countries`:** An array of `Country` objects.
+*   **`db_manager`:** An instance of `DBManager`.
+*   **`_ready()`:** Initializes the `db_manager` and calls `load_countries()`.
+*   **`load_countries()`:** Fetches country data using `db_manager.fetch_countries()` and creates `Country` objects. Calls `load_regions()` for each country.
+*   **`load_regions(country: Country)`:** Fetches region data for a given country using `db_manager.fetch_regions()` and creates `Region` objects.
+
+### 9.3. Country
+
+The `Country` class (located at `game/world/server/country.gd`) represents a country in the game.
+
+*   **`id`:** The country's unique identifier (e.g., "USA").
+*   **`regions`:** An array of `Region` objects belonging to the country.
+*   **`flag`:** The country's flag (not currently used).
+*   **`_init(id: String)`:** Constructor, initializes the `id` and `regions`.
+*   **`add_region(region: Region)`:** Adds a region to the `regions` array.
+
+### 9.4. Region
+
+The `Region` class (located at `game/world/server/region.gd`) represents a region in the game.
+
+*   **`id_color`:** The region's unique color identifier.
+*   **`region_name`:** The name of the region.
+*   **`pop_15`:** Population aged 0-15.
+*   **`pop_15_65`:** Population aged 15-65.
+*   **`pop_65`:** Population aged 65+.
+*   **`owner_pltc_id`:** A reference to the `Country` object that owns the region.
+*   **`_init(id_color: String, region_name: String, owner_pltc_id: Country, pop_15: int, pop_15_65: int, pop_65: int)`:** Constructor, initializes the region's properties.
+*    **`add_region(region)`:** Adds current region to the region array of parent country.

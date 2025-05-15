@@ -64,9 +64,12 @@ The project encourages a vibrant modding community by:
 ├── game                   # Core game logic and structure.
 │   ├── editor             # Custom editor scripts and tools.
 │   ├── lib                # Libraries and autoload scripts.
+│   │   └── db_manager.gd  # Database manager
 │   └── world              # Game world-related code.
 │       ├── server         # Server-side game logic.
+│       │   ├── world.gd   # World logic
+│       │   ├── country.gd # Country class
+│       │   └── region.gd  # Region class
 ├── loc                    # Localization files for multiple languages.
 ├── _archive               # Deprecated or archived files for reference.
 └── _utils                 # Utility scripts or tools for development.
-```

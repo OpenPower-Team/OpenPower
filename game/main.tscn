@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://guoohqlkvwre"]
 
 [ext_resource type="PackedScene" uid="uid://cbrpaew3hshex" path="res://game/main_menu.tscn" id="1_x8j4e"]
-[ext_resource type="VideoStream" path="res://assets/video/Globe.ogv" id="2_1qe82"]
+[ext_resource type="VideoStream" uid="uid://72hmun1xsf8x" path="res://assets/video/Globe.ogv" id="2_1qe82"]
 
 [node name="Root" type="Node"]
 

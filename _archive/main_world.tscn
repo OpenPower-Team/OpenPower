@@ -1,6 +1,7 @@
 [gd_scene load_steps=2 format=3 uid="uid://dfblmdls1ybjk"]
 
-[ext_resource type="Script" path="res://addons/gecs/world.gd" id="1_wdtqp"]
+[sub_resource type="Resource" id="Resource_4ktii"]
+metadata/__load_path__ = "res://addons/gecs/world.gd"
 
 [node name="World" type="Node"]
-script = ExtResource("1_wdtqp")
+script = SubResource("Resource_4ktii")

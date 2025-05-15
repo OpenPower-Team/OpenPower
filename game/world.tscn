@@ -1,20 +1,15 @@
-[gd_scene load_steps=6 format=3 uid="uid://b3y5ylyogvm34"]
+[gd_scene load_steps=5 format=3 uid="uid://b3y5ylyogvm34"]
 
-[ext_resource type="PackedScene" path="res://game/world/client/client_ui.tscn" id="1_ClientUI"]
+[ext_resource type="PackedScene" uid="uid://bidwp8ls3t0qd" path="res://game/world/client/client_ui.tscn" id="1_ClientUI"]
 [ext_resource type="Texture2D" uid="uid://drpvf2eylwekl" path="res://data/Data_Regions.png" id="2_ukgei"]
-[ext_resource type="Script" path="res://game/editor/editor_camera.gd" id="2_wjmc4"]
-[ext_resource type="Script" path="res://game/world/server/world_init.gd" id="2_WorldInit"]
-[ext_resource type="Script" path="res://game/world/shared/constants.gd" id="3_Constants"]
+[ext_resource type="Script" uid="uid://duqqr76i6pql" path="res://game/editor/editor_camera.gd" id="2_wjmc4"]
+[ext_resource type="Script" uid="uid://mmiyvseg8g2q" path="res://game/world/server/world.gd" id="3_epxow"]
 
 [node name="world" type="Node"]
 
 [node name="client" type="Node" parent="."]
 
 [node name="WorldMap" type="Node2D" parent="client"]
-
-[node name="Sprite2D" type="Sprite2D" parent="client/WorldMap"]
-texture = ExtResource("2_ukgei")
-centered = false
 
 [node name="Camera2D" type="Camera2D" parent="client/WorldMap"]
 position = Vector2(1844, 634)
@@ -25,9 +20,12 @@ script = ExtResource("2_wjmc4")
 [node name="server" type="Node" parent="."]
 
 [node name="WorldInit" type="Node" parent="server"]
-script = ExtResource("2_WorldInit")
+script = ExtResource("3_epxow")
+
+[node name="DataRegionsMap" type="Sprite2D" parent="server/WorldInit"]
+texture = ExtResource("2_ukgei")
+centered = false
 
 [node name="shared" type="Node" parent="."]
 
 [node name="Constants" type="Node" parent="shared"]
-script = ExtResource("3_Constants")

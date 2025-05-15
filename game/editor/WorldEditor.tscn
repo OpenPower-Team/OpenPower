@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://da5sqmgi57nug"]
 
-[ext_resource type="Script" path="res://game/editor/WorldEditor.gd" id="1_wkvmn"]
+[ext_resource type="Script" uid="uid://cplxx1axgfy7j" path="res://game/editor/WorldEditor.gd" id="1_wkvmn"]
 [ext_resource type="Texture2D" uid="uid://drpvf2eylwekl" path="res://data/Data_Regions.png" id="2_q1td4"]
-[ext_resource type="Script" path="res://game/editor/editor_camera.gd" id="3_56bls"]
-[ext_resource type="Script" path="res://game/editor/MB_diagnostics.gd" id="4_03qss"]
-[ext_resource type="Script" path="res://game/lib/FPS.gd" id="6_6iers"]
+[ext_resource type="Script" uid="uid://duqqr76i6pql" path="res://game/editor/editor_camera.gd" id="3_56bls"]
+[ext_resource type="Script" uid="uid://craod5re1i4mo" path="res://game/editor/MB_diagnostics.gd" id="4_03qss"]
+[ext_resource type="Script" uid="uid://c2wgyigm3vji0" path="res://game/lib/FPS.gd" id="6_6iers"]
 
 [node name="Campaign Editor" type="Node2D"]
 script = ExtResource("1_wkvmn")

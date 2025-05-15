@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://riqfmggkqpfd"]
 
-[ext_resource type="Script" path="res://addons/json_editor/scripts/json_editor.gd" id="1_xxxxx"]
+[ext_resource type="Script" uid="uid://dgm7im0iwmdm1" path="res://addons/json_editor/scripts/json_editor.gd" id="1_xxxxx"]
 
 [node name="JsonEditor" type="Control"]
 layout_mode = 3
@@ -279,14 +279,12 @@ text = "Cancel"
 [connection signal="pressed" from="MarginContainer/VBoxContainer/HeaderBar/BrowseButton" to="FileDialog" method="popup_centered"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/HeaderBar/LoadButton" to="." method="_on_load_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/HeaderBar/SaveButton" to="." method="_on_save_pressed"]
-
 [connection signal="file_selected" from="FileDialog" to="." method="_on_file_selected"]
 [connection signal="close_requested" from="EditDialog" to="." method="_on_edit_cancel"]
 [connection signal="pressed" from="EditDialog/VBoxContainer/HBoxContainer/DeleteButton" to="." method="_on_delete_pressed"]
 [connection signal="pressed" from="EditDialog/VBoxContainer/HBoxContainer/AddNewButton" to="." method="_on_add_new_pressed"]
 [connection signal="pressed" from="EditDialog/VBoxContainer/HBoxContainer/EditConfirm" to="." method="_on_edit_confirm"]
 [connection signal="pressed" from="EditDialog/VBoxContainer/HBoxContainer/EditCancel" to="." method="_on_edit_cancel"]
-
 [connection signal="close_requested" from="AddDialog" to="." method="_on_add_cancel"]
 [connection signal="pressed" from="AddDialog/VBoxContainer/HBoxContainer/AddConfirm" to="." method="_on_add_confirm"]
 [connection signal="pressed" from="AddDialog/VBoxContainer/HBoxContainer/AddCancel" to="." method="_on_add_cancel"]

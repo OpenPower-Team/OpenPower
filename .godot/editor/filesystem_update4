@@ -1,3 +1,11 @@
-res://game/world.tscn
-res://game/editor/editor_camera.gd
+res://_archive/editor.tscn
+res://_archive/Main2.tscn
+res://_archive/main_world.tscn
+res://_archive/node_3d.tscn
+res://addons/json_editor/scenes/json_editor.tscn
+res://game/editor/WorldEditor.tscn
 res://game/world/client/client_ui.tscn
+res://game/main.tscn
+res://game/main_menu.tscn
+res://game/music.tscn
+res://game/world.tscn
