@@ -1,7 +1,13 @@
 extends Node
 
+# Signals
 signal world_paused
 signal game_unpaused
+signal date_changed(new_date: Dictionary)
+signal day_passed(date_snapshot: Dictionary)
+signal month_passed(date_snapshot: Dictionary)
+signal year_passed(date_snapshot: Dictionary)
+signal game_speed_changed(new_speed: float)
 
 # Singleton instance
 var instance = null
@@ -16,11 +22,24 @@ func _ready():
 	instance = self
 	set_process(true)
 
+# Public API
+func get_current_date() -> Dictionary:
+	return game_date.duplicate()
+
+func get_current_date_string() -> String:
+	return "%d-%02d-%02d" % [game_date.year, game_date.month, game_date.day]
+
+func get_speed() -> float:
+	return game_speed
+
+func set_speed(new_speed: float) -> void:
+	game_speed = new_speed
+	game_speed_changed.emit(new_speed)
+
 # Called every frame.
 func _process(delta):
 	if not paused:
 		_time_passed += delta * game_speed
-		#print("Time passed:", _time_passed)
 		while _time_passed >= 1:
 			_time_passed -= 1
 			_increment_minute()
@@ -56,6 +75,8 @@ func _increment_day():
 	if game_date["day"] > _days_in_month(game_date["month"], game_date["year"]):
 		game_date["day"] = 1
 		_increment_month()
+	date_changed.emit(game_date.duplicate())
+	day_passed.emit(game_date.duplicate())
 
 # Increment the game clock by one month.
 func _increment_month():
@@ -63,10 +84,12 @@ func _increment_month():
 	if game_date["month"] > 12:
 		game_date["month"] = 1
 		_increment_year()
+	month_passed.emit(game_date.duplicate())
 
 # Increment the game clock by one year.
 func _increment_year():
 	game_date["year"] += 1
+	year_passed.emit(game_date.duplicate())
 
 # Get the number of days in a month, considering leap years.
 func _days_in_month(month, year):

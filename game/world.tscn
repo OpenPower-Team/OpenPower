@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bidwp8ls3t0qd" path="res://game/world/client/client_ui.tscn" id="1_ClientUI"]
 [ext_resource type="Texture2D" uid="uid://drpvf2eylwekl" path="res://data/Data_Regions.png" id="2_ukgei"]
 [ext_resource type="Script" uid="uid://duqqr76i6pql" path="res://game/editor/editor_camera.gd" id="2_wjmc4"]
-[ext_resource type="Script" uid="uid://mmiyvseg8g2q" path="res://game/world/server/world.gd" id="3_epxow"]
+[ext_resource type="Script" uid="uid://2btu70ggom5q" path="res://game/world/server/world_manager.gd" id="3_epxow"]
 
 [node name="world" type="Node"]
 
@@ -19,10 +19,10 @@ script = ExtResource("2_wjmc4")
 
 [node name="server" type="Node" parent="."]
 
-[node name="WorldInit" type="Node" parent="server"]
+[node name="WorldManager" type="Node" parent="server"]
 script = ExtResource("3_epxow")
 
-[node name="DataRegionsMap" type="Sprite2D" parent="server/WorldInit"]
+[node name="DataRegionsMap" type="Sprite2D" parent="server/WorldManager"]
 texture = ExtResource("2_ukgei")
 centered = false
 
