@@ -18,7 +18,6 @@ config/icon="res://icon.svg"
 [autoload]
 
 Music="*res://game/music.tscn"
-SaveSystem="*res://game/save_system/save_system.gd"
 
 [easy_fullscreen]
 
