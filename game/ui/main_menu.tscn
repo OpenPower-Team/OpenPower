@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://brtgaaim2jejg" path="res://game/ui/main_menu.gd" id="1_oqv2r"]
 [ext_resource type="Script" uid="uid://b48ulm0qyhbgj" path="res://game/lib/fps.gd" id="2_2ls0m"]
 
-
 [sub_resource type="LabelSettings" id="LabelSettings_mhmxo"]
 shadow_color = Color(0, 0, 0, 0.509804)
 

@@ -2,8 +2,8 @@
 extends Control
 
 func _input(event: InputEvent) -> void:
-	if event.is_action_just_pressed("ui_cancel"):
-		get_tree().quit()
+	# Not yet implemented
+	pass
 
 func _on_singleplayer_button_up() -> void:
 	get_tree().change_scene_to_file("res://game/game_logic/game_world.tscn")

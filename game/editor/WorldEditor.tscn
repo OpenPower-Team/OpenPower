@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://da5sqmgi57nug"]
 
 [ext_resource type="Script" uid="uid://duaesoujf0b5d" path="res://game/editor/world_editor.gd" id="1_wkvmn"]
-[ext_resource type="Texture2D" uid="uid://drpvf2eylwekl" path="res://data/Data_Regions.png" id="2_q1td4"]
+[ext_resource type="Texture2D" uid="uid://cpgejxgnsckrl" path="res://data/Data_Regions.png" id="2_q1td4"]
 [ext_resource type="Script" uid="uid://gxjcp6thuq2t" path="res://game/editor/editor_camera.gd" id="3_56bls"]
-[ext_resource type="Script" uid="uid://bma0s31g00xr5" path="res://game/editor/map_validator.gd" id="4_03qss"]
-[ext_resource type="Script" uid="uid://b48ulm0qyhbgj" path="res://game/lib/FPS.gd" id="6_6iers"]
+[ext_resource type="Script" uid="uid://dx84k4fr2byla" path="res://game/editor/ui/mb_diagnostics.gd" id="4_ubykn"]
+[ext_resource type="Script" uid="uid://b48ulm0qyhbgj" path="res://game/lib/fps.gd" id="6_6iers"]
 
 [node name="Campaign Editor" type="Node2D"]
 script = ExtResource("1_wkvmn")
@@ -115,7 +115,7 @@ offset_top = 1.0
 offset_right = 555.0
 offset_bottom = 32.0
 text = "Diagnostics"
-script = ExtResource("4_03qss")
+script = ExtResource("4_ubykn")
 
 [node name="Panel_validation" type="Panel" parent="CanvasLayer"]
 visible = false
