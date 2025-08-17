@@ -17,7 +17,6 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Music="*res://game/music.tscn"
 DBManager="*res://game/lib/autoload/db_manager.gd"
 ECS="*res://addons/gecs/ecs.gd"
 
