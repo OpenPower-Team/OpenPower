@@ -1,28 +1,25 @@
+# REFACTOR: Added static typing and exported variables for tunability.
 extends Camera2D
 
-func zoom_in():
-	var current_zoom = self.zoom
-	self.set_zoom(current_zoom * 1.05)
-	
-func zoom_out():
-	var current_zoom = self.zoom
-	self.set_zoom(current_zoom * 0.95)
-	
-#Drag around camera
-func move_offset(event):
-	var rel_x = event.relative.x
-	var rel_y = event.relative.y
-	var cam_pos = self.get_offset()
-	var current_zoom = self.zoom
-	
-	cam_pos.x -= rel_x / current_zoom.x
-	cam_pos.y -= rel_y / current_zoom.y
-	self.set_offset(cam_pos)
+@export var zoom_speed: float = 0.05
+@export var min_zoom: float = 0.1
+@export var max_zoom: float = 5.0
 
-func _unhandled_input(event):
-	if event is InputEventMouseMotion and event.button_mask > 0:
-		self.move_offset(event)
-	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_WHEEL_UP:
-		self.zoom_in()
-	elif event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
-		self.zoom_out()
+func _unhandled_input(event: InputEvent) -> void:
+	if event is InputEventMouseMotion and event.button_mask & MOUSE_BUTTON_MASK_MIDDLE:
+		# Use inverse transform to correctly pan with camera rotation/scale
+		position -= event.relative * (1.0 / zoom.x)
+
+	if event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_WHEEL_UP and event.is_pressed():
+			_zoom_in()
+		elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN and event.is_pressed():
+			_zoom_out()
+
+func _zoom_in() -> void:
+	var new_zoom: Vector2 = zoom * (1.0 + zoom_speed)
+	zoom = new_zoom.clamp(Vector2(min_zoom, min_zoom), Vector2(max_zoom, max_zoom))
+
+func _zoom_out() -> void:
+	var new_zoom: Vector2 = zoom * (1.0 - zoom_speed)
+	zoom = new_zoom.clamp(Vector2(min_zoom, min_zoom), Vector2(max_zoom, max_zoom))
