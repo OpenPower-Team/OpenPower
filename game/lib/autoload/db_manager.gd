@@ -17,12 +17,17 @@ func query(statement: String, params: Array = []) -> Array:
 	if not _db:
 		push_error("GECS DEV: Database is not open.")
 		return []
+
+	# FIX: Execute the query first into a generic Variant.
+	var query_execution_result = _db.query_with_bindings(statement, params)
 	
-	var result: Array = _db.query_with_bindings(statement, params)
-	if _db.error_message:
+	# FIX: Check for errors BEFORE trying to assign to the typed Array variable.
+	# The SQLite wrapper returns false on failure.
+	if not query_execution_result:
 		push_error("GECS DEV: DB Query Error on '%s': %s" % [statement, _db.error_message])
 		return []
 		
+	var result: Array = _db.query_result
 	return result
 
 func get_all_countries() -> Array:
@@ -35,9 +40,10 @@ func get_regions_for_country(country_id: String) -> Array:
 func get_all_region_colors() -> Array:
 	return query("SELECT ID_COLOR FROM REGION")
 
-func save_region(color: String, name: String, owner_id: String) -> void:
+# FIX: Renamed 'name' to 'region_name' to avoid shadowing Node.name.
+func save_region(color: String, region_name: String, owner_id: String) -> void:
 	var sql: String = """
 		INSERT OR REPLACE INTO REGION (ID_COLOR, REGION_NAME, OWNER_PLTC_ID)
 		VALUES (?, ?, ?)
 	"""
-	query(sql, [color, name, owner_id])
+	query(sql, [color, region_name, owner_id])

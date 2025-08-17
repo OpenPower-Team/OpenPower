@@ -9,13 +9,16 @@ func query() -> QueryBuilder:
 	# and the world is ready. It will return an empty array after the first run.
 	return q if not _has_run else q.with_none([Entity])
 
-func process(entity: Entity, delta: float) -> void:
+# FIX: Added underscore to unused parameters to remove warnings.
+func process(_entity: Entity, _delta: float) -> void:
 	# The process function is just a trigger; all logic is in process_all.
 	pass
 
-func process_all(entities: Array, delta: float) -> void:
+# FIX: Changed signature to match parent class (must return bool).
+# FIX: Added underscore to unused parameters.
+func process_all(_entities: Array, _delta: float) -> bool:
 	if _has_run:
-		return
+		return true
 	
 	print("GECS DEV: WorldInitializationSystem running...")
 	var countries_data: Array = DBManager.get_all_countries()
@@ -71,3 +74,6 @@ func process_all(entities: Array, delta: float) -> void:
 	
 	print("GECS DEV: World initialized with %d countries and their regions." % country_entities.size())
 	_has_run = true
+	
+	# FIX: Must return a boolean value.
+	return true
